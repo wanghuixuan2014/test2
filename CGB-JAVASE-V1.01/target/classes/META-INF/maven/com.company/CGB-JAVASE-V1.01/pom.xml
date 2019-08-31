@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.company</groupId>
+	<artifactId>CGB-JAVASE-V1.01</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+	<!-- jackson -->
+	<dependency>
+		<groupId>com.fasterxml.jackson.core</groupId>
+		<artifactId>jackson-databind</artifactId>
+		<version>2.9.8</version>
+	</dependency>
+	
+	<!-- kryo -->
+	<dependency>
+		<groupId>com.esotericsoftware</groupId>
+		<artifactId>kryo</artifactId>
+		<version>5.0.0-RC4</version>
+	</dependency>
+	<!--hessian -->
+	<dependency>
+		<groupId>com.caucho</groupId>
+		<artifactId>hessian</artifactId>
+		<version>4.0.62</version>
+	</dependency>
+       <dependency>
+	    <groupId>mysql</groupId>
+	    <artifactId>mysql-connector-java</artifactId>
+	    <version>8.0.16</version>
+       </dependency>
+       <!-- HikariCP -->
+       <dependency>
+         <groupId>com.zaxxer</groupId>
+         <artifactId>HikariCP</artifactId>
+         <version>3.2.0</version>
+       </dependency>
+       
+	   <dependency>
+		<groupId>com.mchange</groupId>
+		<artifactId>c3p0</artifactId>
+		<version>0.9.5.2</version>
+	   </dependency>
+	   <!-- druid -->
+	   <dependency>
+		<groupId>com.alibaba</groupId>
+		<artifactId>druid</artifactId>
+		<version>1.1.10</version>
+	   </dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.12</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-core</artifactId>
+			<version>9.0.12</version>
+		</dependency>
+	</dependencies>
+</project>
